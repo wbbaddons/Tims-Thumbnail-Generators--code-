@@ -38,6 +38,9 @@ class TimsThumbnailsCodeListener implements \wcf\system\event\IEventListener {
 	 * Actually generate the thumbnail.
 	 */
 	public function generateThumbnail() {
+		// someone else already grabbed this one
+		if (count($this->eventObj->eventData)) return;
+		
 		// TODO: Match the correct files
 		if (true) return;
 		
