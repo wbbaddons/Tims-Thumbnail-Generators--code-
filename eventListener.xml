@@ -15,6 +15,7 @@
 			<environment>user</environment>
 			<inherit>0</inherit>
 			<listenerclassname>wcf\system\event\listener\TimsThumbnailsCodeListener</listenerclassname>
+			<nice>-2</nice>
 		</eventlistener>
 	</import>
 </data>
